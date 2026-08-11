@@ -1,0 +1,4 @@
+interface:
+  display_name: "运营字体生成"
+  short_description: "根据参考字体图片分析风格，并为新的运营文案生成同系列字体设计"
+  default_prompt: "使用 $operations-font-generator 分析我提供的字体参考图，并为新文案建立同风格字体设计工作流。"
