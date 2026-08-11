@@ -1,37 +1,37 @@
 # AI-Design-OS
 
-我的 AI 设计知识库与工作流系统（AI Design OS）。
+面向设计师的 AI 知识库、工作流与 Codex Skill 合集。
 
-## Codex Skills
+## Skill 目录
 
-### 运营字体生成
+### 字体设计
 
-根据用户提供的中文字体、标题字、手写字、艺术字或字标参考图片，分析字体骨架、笔画、结构、设计语言与排版，并为新的运营文案建立同字体家族的设计方案。
+| Skill | 适用场景 | 查看与安装 |
+| --- | --- | --- |
+| 运营字体生成 | 根据字体参考图分析风格，为新的运营文案建立同字体家族的设计方案 | [打开 Skill](./operations-font-generator/) |
 
-主要能力：
+> 后续新增的 Skill 会按照“字体设计、视觉设计、品牌设计、文案工具”等类别整理在这里。
 
-- 将第一张字体图片登记为主参考图；
-- 拆解字体骨架、笔画、结构、设计点与排版；
-- 优先复用已确认的整字、偏旁、部件和特征笔画；
-- 为新的运营文案提出设计方案；
-- 在支持图片生成的 Codex 环境中继续生成和局部修改字体图片；
-- 确认字体名称后，将任务标题改为“字体名称｜运营字体生成”。
+## 安装方式
 
-Skill 文件位于：
+### 推荐方式
 
-`operations-font-generator/`
+1. 点击目录中的“打开 Skill”。
+2. 复制该 Skill 的 GitHub 页面链接。
+3. 把链接发给 Codex，并告诉它安装这个 Skill。
+4. 安装完成后，重新打开一个 Codex 任务。
 
-#### 推荐安装方式
-
-把下面这句话发给 Codex：
+例如：
 
 > 请从 https://github.com/blackUI-bot/AI-Design-OS/tree/main/operations-font-generator 安装“运营字体生成”Skill。
 
-安装完成后，重新打开一个 Codex 任务，在 Skill 列表中选择“运营字体生成”。
+### 下载 ZIP
 
-#### 手动下载
-
-1. 点击 GitHub 页面右上方绿色的 **Code**。
+1. 点击仓库右上方绿色的 **Code**。
 2. 选择 **Download ZIP**。
 3. 把 ZIP 文件拖进 Codex。
-4. 告诉 Codex：“请安装压缩包中的 operations-font-generator Skill。”
+4. 告诉 Codex要安装压缩包中的哪个 Skill。
+
+## 使用许可
+
+本仓库采用 [MIT License](./LICENSE)，允许使用、修改和分享。
